@@ -10,34 +10,42 @@ body {
     border-radius: 0.625rem;
     background: #BBFF38;
     border: none;
-    padding: 16px 24px; /* Balanced padding for a consistent size */
+    padding: 16px 24px;
+    /* Balanced padding for a consistent size */
     font-size: 18px;
     cursor: pointer;
     text-decoration: none;
-    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
-    color: #182A4D; /* Text color */
-    display: inline-block; /* Ensure proper dimensions */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* Smooth transitions */
+    color: #182A4D;
+    /* Text color */
+    display: inline-block;
+    /* Ensure proper dimensions */
     text-align: center;
 }
 
 .email-button:hover {
-    background-color: #99cc33; /* Lighter hover color for better contrast */
-    color: white; /* Contrast adjustment for text */
+    background-color: #99cc33;
+    /* Lighter hover color for better contrast */
+    color: white;
+    /* Contrast adjustment for text */
 }
 
-.bodytext{
+.bodytext {
     width: 595px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.top{
+.top {
     margin-left: auto;
     margin-right: auto;
     width: 595px;
-    
+
 }
 
-.container{
-    width: 90%;
+.container {
+    max-width: 90%; /* 90% of the viewport width */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add some padding for spacing */
 }
