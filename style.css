@@ -78,6 +78,8 @@ h1 .highlight {
 
 .button {
     display: block;
+    box-sizing: border-box;
+    width: 100%;
     padding: 12px 20px;
     background-color: #BBFF38;
     border: none;
