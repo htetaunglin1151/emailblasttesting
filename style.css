@@ -1,7 +1,9 @@
 /* styles.css */
 
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: Archivo, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #102a43;
@@ -79,6 +81,7 @@ h1 .highlight {
     padding: 12px;
     background-color: #BBFF38;
     border: none;
+    
     border-radius: 5px;
     color: #102a43;
     font-size: 1rem;
@@ -89,6 +92,6 @@ h1 .highlight {
     text-align: center;
 }
 
-button:hover {
-    background-color: #00e374;
+.button:hover {
+    background-color: #93cb2c;
 }
